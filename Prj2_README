@@ -1,0 +1,26 @@
+Here are my submitted files and explanations:
+
+BDC_command.c: 
+	The source code for Disk Clients in Basic disk-storage system, which is a command-line driven client. Work in a loop in order to get the user type commands and send the commands to the disk server. Also display the results to the user.
+BDC_random.c:
+	The source code for Disk Clients in Basic disk-storage system, which is a random-data driven client. Generate a series of N random requests (W or R) to the disk. Print a single character representing the requests' results to the user.
+BDS.c:
+	The source code for Disk Servers in Basic disk-storage system. Get the cylinders, sector and the track-to-track time from the command-line parameter, simulate a disk and store the actual data in a real disk file.
+cse356header.h:
+	Including all the header files that the source codes in Project 2 contains.
+FC.c:
+	The source code for File System Clients in File System, which is a command-line driven client. Work in a loop in order to get the user type commands and send the commands to the file system server. Also display a single character representing the results.
+FS.c:
+	The source code for File System Servers in File System. Be the server for the file system, also be the client for the disk-storage system server. Get the commands from the FC, handle them and send the command to BDS in order to store the information in real disk file.
+IDS_C_LOOK.c:
+	The source code for Disk Servers in Intelligent disk-storage system. Use C-LOOK scheduler to calculate the track-to-track delay time.
+IDS_FCFS.c:
+	The source code for Disk Servers in Intelligent disk-storage system. Use FCFS scheduler to calculate the track-to-track delay time.
+IDS_SSTF.c:
+	The source code for Disk Servers in Intelligent disk-storage system. Use SSTF scheduler to calculate the track-to-track delay time.
+Prj2 README:
+	The explantion of the Project 2.
+makefile:
+	Making the executables out of any of the source code.
+TestScript:
+	The outputs of each code.
